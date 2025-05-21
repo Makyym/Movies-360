@@ -1,0 +1,23 @@
+:root {
+  font-family: var(--font-family);
+  font-synthesis: none;
+  background-color:  #141414;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Inter", sans-serif;
+  color: var(--main-white);
+  --main-white: #fff;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,62 @@
+.navDiv {
+    display: flex;
+    width: 1280px;
+    padding: 30px;
+    align-items: end;
+    justify-content: center;
+    & h3 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-weight: 700;
+        font-size: 36px;
+        & svg {
+            width: 32px;
+            height: auto;
+            fill: red;
+            margin-right: 5px;
+        }
+    }
+    & nav {
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: 4px solid #1f1f1f;;
+        border-radius: 12px;
+        padding: 10px 40px;
+        width: 586px;
+        background: #0f0f0f;
+    }
+}
+
+.link {
+    font-weight: 400;
+    font-size: 18px;
+    width: 183px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5;
+    color: #bfbfbf;
+}
+
+.link:hover {
+    text-shadow: 1px 1px 20px rgba(255, 0, 0, 0.747), -1px -1px 20px rgba(255, 0, 0, 0.3);
+}
+
+.active {
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    background: #1a1a1a;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--main-white);
+}
+
+.active:hover {
+    text-shadow: none;
+}
