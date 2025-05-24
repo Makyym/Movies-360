@@ -1,9 +1,9 @@
 import { lazy, Suspense } from 'react';
 import './App.css'
-import Navigation from './components/Navigation/Navigation.jsx'
-import Loader from './components/Loader/Loader.jsx';
+import Navigation from './components/Navigation/Navigation.js'
+import Loader from './components/Loader/Loader.js';
 import { Route, Routes } from 'react-router-dom';
-import Favorites from './components/Favorites/Favorites.jsx';
+import Favorites from './components/Favorites/Favorites.js';
 
 const HomePage = lazy(() => import('./pages/HomePage/HomePage'));
 const MoviePage = lazy(() => import('./pages/MoviePage/MoviePage'));

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import s from "./Navigation.module.css";
 import { RiMovie2AiLine } from "react-icons/ri";
 
-const activeLink = ({ isActive }) => {
+const activeLink = ({ isActive}) => {
     return clsx(s.link, isActive && s.active);
 };
 
