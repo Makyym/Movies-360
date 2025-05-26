@@ -1,42 +1,46 @@
+@import 'tailwindcss';
+/* @import 'tailwindcss/preflight';
+@tailwind utilities; */
+
 :root {
   font-family: var(--font-family);
   font-synthesis: none;
-  background-color:  #141414;
+  background-color: #141414;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  --font-family: "Manrope", sans-serif;
-  --second-family: "Inter", sans-serif;
+  --font-family: 'Manrope', sans-serif;
+  --second-family: 'Inter', sans-serif;
   color: var(--main-white);
   --main-white: #fff;
   :root {
-	--absolute-white: #fff;
-	--absolute-black: #000;
-	--red-45: #e50000;
-	--red-50: #f00;
-	--red-55: #ff1a1a;
-	--red-60: #f33;
-	--red-80: #f99;
-	--red-90: #fcc;
-	--red-95: #ffe5e5;
-	--red-99: #fffafa;
-	--black-06: #0f0f0f;
-	--black-08: #141414;
-	--black-10: #1a1a1a;
-	--black-12: #1f1f1f;
-	--black-15: #262626;
-	--black-20: #333;
-	--black-25: #404040;
-	--black-30: #4d4d4d;
-	--grey-60: #999;
-	--grey-65: #a6a6a6;
-	--grey-70: #b3b3b3;
-	--grey-75: #bfbfbf;
-	--grey-90: #e4e4e7;
-	--grey-95: #f1f1f3;
-	--grey-97: #f7f7f8;
-	--grey-99: #fcfcfd;
-}
+    --absolute-white: #fff;
+    --absolute-black: #000;
+    --red-45: #e50000;
+    --red-50: #f00;
+    --red-55: #ff1a1a;
+    --red-60: #f33;
+    --red-80: #f99;
+    --red-90: #fcc;
+    --red-95: #ffe5e5;
+    --red-99: #fffafa;
+    --black-06: #0f0f0f;
+    --black-08: #141414;
+    --black-10: #1a1a1a;
+    --black-12: #1f1f1f;
+    --black-15: #262626;
+    --black-20: #333;
+    --black-25: #404040;
+    --black-30: #4d4d4d;
+    --grey-60: #999;
+    --grey-65: #a6a6a6;
+    --grey-70: #b3b3b3;
+    --grey-75: #bfbfbf;
+    --grey-90: #e4e4e7;
+    --grey-95: #f1f1f3;
+    --grey-97: #f7f7f8;
+    --grey-99: #fcfcfd;
+  }
 }
 
 body {
